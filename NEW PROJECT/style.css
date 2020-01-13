@@ -1,0 +1,23 @@
+table {
+	border: 7px groove orange;
+	border-collapse: separate;
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+}
+td, th {
+	border: 2px groove orange;
+	padding: 7px;
+}
+body {
+	background-image: url(https://s-sd.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/background-css-pattern-generators_1200_auto_jpg.jpg);
+} 
+ th {
+ 	background-image: url(https://obninsksite.ru/assets/theme/images/blog/68.jpg);
+ 	font-family: 'Seymour One', sans-serif;
+ }
+ tr {
+ 	background-image: url(https://obninsksite.ru/assets/theme/images/blog/68.jpg);
+ 	color:red;
+ 	font-family: 'Seymour One', sans-serif;
+ }
