@@ -17,7 +17,15 @@ body {
  	font-family: 'Seymour One', sans-serif;
  }
  tr {
- 	background-image: url(https://obninsksite.ru/assets/theme/images/blog/68.jpg);
- 	color:red;
+ 	background-color:white ;
  	font-family: 'Seymour One', sans-serif;
  }
+#t5 {
+	color: red;
+}
+td:nth-child(2) {
+	background-color: blue; 	
+}
+#p1 {
+	background-color: pink;
+}
