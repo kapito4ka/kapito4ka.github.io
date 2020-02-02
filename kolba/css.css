@@ -1,0 +1,42 @@
+body {
+	background-color: #eee;
+}
+.image-box {
+	width: 80%;
+	margin: auto;
+	color: red
+}
+#w {
+	height: 100px;
+	width: 35px;
+	border: ridge black;
+}
+#a {
+	height: 35px;
+	width: 35px;
+	background-color: red;
+	margin-top: 70px;
+}
+#e {
+	height: 100px;
+	width: 35px;
+	border:ridge black;
+}
+#s {
+	height: 65px;
+	width: 38px;
+	background-color: green;
+	margin-top: 38px;
+
+}
+#r  {
+	height: 100px;
+	width: 35px;
+	border: ridge black;
+}
+#d {
+	height:90px ;
+	width: 37px;
+	background-color: blue;
+	margin-top: 12px;
+}
