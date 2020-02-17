@@ -1,0 +1,96 @@
+#kvadrat1 {
+	border-style: solid;
+	background-color: red;
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	right: 650px;
+	top: 150px;
+	left: 650px;
+	animation: kvadraticko 3s infinite ease-in; 
+
+}
+#kvadrat2 {
+	border-style: solid;
+	background-color: red;
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	right: 650px;
+	top: 150px;
+	left: 650px;
+	animation: kvadraticka 3s infinite ease-in;
+}
+#kvadrat {
+	border-style: solid;
+	background-color: red;
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	right: 650px;
+	top: 150px;
+	left: 650px;
+	animation: kvadratick 3s infinite ease-in;
+}
+#kvadrat3 {
+	border-style: solid;
+	background-color: red;
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	right: 650px;
+	top: 150px;
+	left: 650px;
+	animation: kvadrat 3s infinite ease-in;
+}
+
+@keyframes kvadraticko {
+	 0% { transform: translate(0) rotate(0) background-color:red; color:blue; }
+	 25% { transform: translate(60px) rotate(90deg); background-color:purple; color:yellow; }
+	 50% { transform: translate(60px,-50px) rotate(180deg); background-color:blue; color:blue; }
+	 75% { transform: translate(0,-50px) rotate(270deg); background-color:green; color:magenta; }
+	 100%{ transform: translate(0) rotate(360deg); background-color:red; color:blue; }
+}
+@keyframes kvadraticka {
+	0%{ transform: translate(0) rotate(0deg); background-color:red; color:blue; }
+	25% { transform: translate(-60px) rotate(90deg); background-color:yellow; color:yellow; }
+	50% { transform: translate(-60px, 50px) rotate(180deg); background-color:orange; color:blue; }
+	75% { transform: translate(0, 50px) rotate(270deg); background-color:magenta; color:yellow;}
+	100% { transform: translate(0) rotate(360deg); background-color:red; color:red; }
+}
+@keyframes kvadratick {
+	0% { transform: translate(0) rotate(0deg); }
+	25%{transform: translate(0,50px)rotate(90deg);}
+	50%{transform: translate(50px,60px)rotate(180deg);}
+	75%{transform: translate(60px)rotate(270deg);}
+	100%{ transform: translate(0)rotate(360deg); }
+}
+@keyframes kvadrat {
+	0% { transform: translate(0)rotate(0deg);}
+	25%{transform: translate(0,-50px)rotate(90deg);}
+	50%{transform: translate(-50px,-60px)rotate(180deg);}
+	75%{transform: translate(-60px)rotate(270deg);}
+	100%{ transform: translate(0)rotate(360deg); }
+}
+
+#kvadrat:hover {
+	animation-play-state: paused;
+}
+@keyframes write {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%
+	}
+}
+#text {
+	overflow: hidden;
+	white-space: nowrap;
+	letter-spacing: .1em;
+	animation: write 5s steps(60, end);
+	right: 650px;
+	top: 150px;
+	left: 650px;
+}
+
