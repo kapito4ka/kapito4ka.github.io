@@ -1,0 +1,33 @@
+@media all and (min-width: 1150px) {
+
+.tsp:hover {
+background-color: blue;
+border: 2px solid blue;
+color: yellow;
+transition: 0.9s;
+}
+.green:hover {
+	background-color: yellow;
+border: 2px solid yellow;
+color: blue;
+transition: 0.9s;
+}
+.nav-link:hover {
+background-color: blue;
+color: yellow;
+transition: 0.8s;
+}
+.second-item:hover {
+	background-color: mediumturquoise;
+	color: white;
+	transform: scale(1.05);
+	box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+.second-item:hover .readmore {
+	color: white;
+}
+.readmore:hover {
+	cursor: pointer;
+}
+}
