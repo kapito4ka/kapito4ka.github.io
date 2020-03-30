@@ -1,0 +1,114 @@
+/*Медиа запросы (media queries) - это правила CSS, которые позволяют управлять стилями элементов в зависимости от значений технических параметров устройств. Иными словами, это конструкции, которые позволяют определять на основании некоторых условий какие стили необходимо использовать на веб-странице, а какие нет.*/
+
+
+
+@media all and (min-width: 1150px) {
+/*Анимация кнопок*/
+.nav-link:hover {
+	background-color: #FFFF00;
+	color: blue;
+	transition: 0.8s;
+}
+
+.kn:hover {
+	color: white;
+	background-color: lime;
+	transition: 0.3s ease-in;
+}
+.green:hover {
+	background-color: yellow;
+	color: blue;
+	transition: 0.8s;
+}
+.kn:hover {
+	color: white;
+	background-color: lime;
+	transition: 0.3s ease-in;
+}
+.tsp:hover {
+	background-color: blue;
+	color: yellow;
+	transition: 0.8s;
+}
+.second-item:hover {
+	background-color: #7FFFD4;
+	color: white;
+	transform: scale(1.05);
+	box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+	cursor: pointer;
+	transition: 0.4s;
+}
+.second-item:hover .redmore {
+	color: white;
+	transition: 0.2s ease-in;
+}
+.h3 {
+	color:blue;
+}
+.redmore:hover {
+	
+}
+.fourth-item:hover {
+background-color: blue;
+transition: 0.5s;
+transform: scale(1.05);
+box-shadow: 0 0 40px 5px rgba(0,0,0,0.3);
+border-radius: 10px;
+cursor: pointer;
+color: yellow;
+}
+
+.fourth-item:hover .headEL{
+border-radius: 10px;
+transition: 0.5s ease-in;
+cursor: pointer;
+}
+.redmor:hover {
+background-color: blue;
+color: white;
+transition: 0.5s ease-in;
+cursor: pointer;
+}
+}
+
+@media all and (max-width: 938px) {
+.nav-container {
+overflow: auto;
+white-space: nowrap;
+
+}
+
+.logo, .search-container, .topnav {
+display: inline-block;
+}
+
+h1 {
+font-size: 8vw;
+}
+
+.header-btn {
+width: 90vw;
+height: 60px;
+margin-top: 15px;
+}
+.green {
+margin-left: 0px;
+}
+
+.first-item, .second-item {
+width: 80%;
+margin: 20px auto;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.first-box {
+flex-wrap: wrap;
+margin-top: 50px;
+}
+
+.text {
+width: 80%;
+font-size: 2rem;
+}
+}
