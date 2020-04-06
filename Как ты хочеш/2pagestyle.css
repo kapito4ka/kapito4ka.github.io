@@ -1,0 +1,21 @@
+*	{
+	background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__340.jpg);
+	background-size: 100%;
+}
+
+.error {
+	color: white;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+
+.backa {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color:white;
+	width: 10px;
+}
+.imgback {
+	width: 50px;
+	}

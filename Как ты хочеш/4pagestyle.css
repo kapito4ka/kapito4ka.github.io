@@ -1,0 +1,33 @@
+*{
+	background-image: url(img/1517572511_bg-svg-gradient-min.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.tet {
+	margin: auto;
+	text-align: center;
+}
+
+.reg  {
+	margin: auto;
+	margin-left: 45%;
+	padding: auto;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-right: 50px;
+	width: 300px;
+}
+.regg {
+	margin: auto;
+	margin-left: 45%;
+	padding: auto;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-right: 50px;
+	width: 300px;
+}
+
+a {
+	text-decoration: none;
+}
