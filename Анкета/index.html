@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anketa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="">
+        <h1>Анкета на работу в GOOGLE</h1>
+        <p><i>Пожалюисто, заполниюте анкетюю. Обязательнюе поле помечоны. <em>*</em></i></p>
+        <fieldset id="q1">
+            <legend>Контактная информация</legend>
+
+            <label for="s_name">Фамилия<em>*</em></label>
+            <input type="text" id="s_name" placeholder="Калинин" autocomplete="off" required>
+            <br>
+            <label for="name">Имя<em>*</em></label>
+            <input type="text" id="name" placeholder="Илья" autocomplete="off" required>
+            <br>
+            <label for="f_name">Отчество</label>
+            <input type="text" id="f_name" placeholder="Андреевич" autocomplete="off">
+            <br>
+            <label for="phone">Телефон<em>*</em></label>
+            <input type="text" id="phone" placeholder="+7(***)***-**-**" autocomplete="off" required>
+            <br>
+            <label for="email">Пошта<em>*</em></label>
+            <input type="email" id="email" placeholder="*********@mail.ru" autocomplete="off" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Персональная информация</legend>
+
+            <label for="date">Дата рождения<em>*</em></label>
+            <input type="date" id="date" autocomplete="off" min="1900-01-01" required>
+            <br>
+            <label for="gender">Пол<em>*</em></label>
+            <label for="gender1"><input type="radio" id="gender1" name="gender" checked>Кафель</label>
+            <label for="gender2"><input type="radio" id="gender2" name="gender">Ламинат</label>
+            <label for="gender3"><input type="radio" id="gender3" name="gender">Линолеум</label>
+            <br>
+            <label for="city">Ваш город</label>
+            <select id="city">
+                <option value="default" selected disabled>Выберете ваш город</option>
+                <option value="Simf">Симферополь</option>
+                <option value="Sevas">Севастополь</option>
+                <option value="Saki">Саки</option>
+                <option value="Evp">Евпатория</option>
+                <option value="Feod">Феодосия</option>
+                <option value="Ker">Керч</option>
+            </select>
+            <br>
+            <label for="about">Раскажите про меня</label>
+            <textarea id="about" maxlength="200" placeholder="Я умею..."></textarea>
+        </fieldset>
+
+        
+
+        <br>
+        <!-- <input type="submit" value="Отправить"> -->
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend><b>Выберете языки программирования, которые вы изучали!</b></legend>
+            <label for="gender12" class="xxx"><input type="checkbox" id="html" name="js" checked>HTML</label>
+            <label for="gender23" class="xxx"><input type="checkbox" id="css" name="js">CSS</label>
+            <label for="gender34" class="xxx"><input type="checkbox" id="js" name="js">Java Script</label>
+            <label for="gender4" class="xxx"><input type="checkbox" id="c++" name="js">C++</label>
+            <label for="gender5" class="xxx"><input type="checkbox" id="c#" name="js">C#</label>
+            <label for="gender6" class="xxx"><input type="checkbox" id="c" name="js">C</label>
+            <label for="gender7" class="xxx"><input type="checkbox" id="Python" name="js">Python</label>
+            <label for="gender8" class="xxx"><input type="checkbox" id="Pascal" name="js">Pascal</label>
+            <label for="gender9" class="xxx"><input type="checkbox" id="php" name="js">PHP</label>
+            <label for="gender10" class="xxx"><input type="checkbox" id="Delphi" name="js">Delphi</label>
+        </fieldset>
+        <fieldset>
+            <legend>Дополнительно</legend>
+            <label>Фото профиля</label>
+            <input type="file" class="w1" id="photo" accept="image/" onchange="readURL(this)">
+            <img src="https://miro.medium.com/max/2560/1*Bvkn3ol6fCOuzAM42B2Afw.jpeg" id="picures">
+            <br>
+            <label class="q1">Выберите цвет обводки</label>
+            <input type="color" class="w2">
+        </fieldset>
+    </form>
+    <button onclick="main()">Отправить</button>
+    <button onclick="m()" class="zzz">Night</button>
+    <button onclick="getLogo()">Фоточки</button>
+</body>
+</html>
