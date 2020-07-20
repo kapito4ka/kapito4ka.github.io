@@ -1,0 +1,37 @@
+
+body{
+    margin-left: 460px
+}
+#h1 {
+	margin: auto;
+	color:blue;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+}
+#name {
+	border-radius: 5%;
+}
+
+#tabu{
+    display:none;
+    color:white;
+    background-color: red;
+    word-break: 
+
+}
+#lose {
+	margin:50px;
+	color:blue;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+	padding: 50px;
+	font-size: 50px;
+}
+#win {
+	margin:50px;
+	color:red;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+	padding: 50px;
+	font-size: 50px;
+}
