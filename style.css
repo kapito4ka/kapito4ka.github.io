@@ -1,0 +1,50 @@
+
+body{
+    margin-left: 460px
+}
+#h1 {
+	margin: auto;
+	color:blue;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+}
+#name {
+	border-radius: 20%;
+}
+
+#ink {
+	color:green;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+}
+
+.name {
+	justify-content: center;
+	color: green;
+	padding: 50px;
+
+}
+
+#tabu{
+    display:none;
+    color:white;
+    background-color: red;
+    word-break: 
+
+}
+#lose {
+	margin:50px;
+	color:blue;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+	padding: 50px;
+	font-size: 50px;
+}
+#win {
+	margin:50px;
+	color:red;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+	padding: 50px;
+	font-size: 50px;
+}
