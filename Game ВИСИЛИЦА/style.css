@@ -9,7 +9,20 @@ body{
 	border:solid, black;
 }
 #name {
-	border-radius: 5%;
+	border-radius: 20%;
+}
+
+#ink {
+	color:green;
+	font-family: 'Balsamiq Sans', cursive;
+	border:solid, black;
+}
+
+.name {
+	justify-content: center;
+	color: green;
+	padding: 50px;
+
 }
 
 #tabu{

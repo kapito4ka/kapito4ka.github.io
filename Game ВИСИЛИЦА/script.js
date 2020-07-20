@@ -97,18 +97,14 @@ function game() {
 	
 		if (guess == 0) {
 			$('body').empty()
-	let win = $('<h1>Ты Победил</h1>').appendTo('body')
+	let win = $('<h1 id = "win">Ты Победил</h1>').appendTo('body')
 		
 	}
 	else if (errors == 10) {
 		konec();
 	}
-	else {
-		$('secret').text(secret.join('#letter'));
-		$('#letter').val('');
-		$('#letter').focus();
-		$('#wrong').text(wrong.join(', '));
-	}
+	 
+	
 
 	if (!isGuessed) {
 		let i = wrong.indexOf(letter.toUpperCase())
@@ -118,6 +114,10 @@ function game() {
 			errors++
 		}
 	}
+		$('#secret').text(secret.join(' '));
+		$('#letter').val('');
+		$('#letter').focus();
+		$('#wrong').text(wrong.join(', '));
 	
 
 }

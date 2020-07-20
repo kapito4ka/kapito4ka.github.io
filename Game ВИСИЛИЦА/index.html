@@ -6,14 +6,13 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Введите имя</h1>
+    <h1 class="name">Введите имя</h1>
     <div class="main">
     <input type="text" id="name" autofocus oninput="checkName(this.value)" autocomplete="off">
     <div id="tabu"></div>
-    <label for="skip">Остаться инкогнито</label>
+    <label for="skip" id="ink">Остаться инкогнито</label>
     <input type="checkbox" id="skip">
     <button id="play" onclick="main()" disabled>Играть</button>
-    <button id="play" onclick="LetWord()">Рандомные слова <br><p class="a">смотреть в консоли*</p></button>
     </div>
 </body>
 </html>
