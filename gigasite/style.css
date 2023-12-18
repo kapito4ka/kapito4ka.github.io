@@ -1,0 +1,247 @@
+body {
+	background-color: #A3826C;
+}
+
+#topic {
+	border:solid;
+	border-radius:35px;
+	background-color: #E3BA9F;
+}
+
+#photoone {
+	padding: 20px;
+	width: 130px;
+	align: middle;
+	align-content: center;
+	margin-top:-200px;
+	margin-right:60px;
+	padding-bottom:70px;
+	right: 10px;
+	float: right;
+	position:fixed;
+}
+.container {
+    position: relative;
+}
+
+
+.nametopic {
+	font-family: 'Comfortaa', sans-serif;
+	margin-left: 100px;
+	padding-top:10px;
+	max-resolution: bottom;
+	font-size: 90px;
+
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+.scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
+#main {
+	height:500px;
+	padding: 50px;
+	margin:0 auto;
+	margin-top:70px;
+	width: 2000px;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  11.11% { opacity: 1; }
+  33.33% { opacity: 1; }
+  44.44% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+#main { 
+	position:relative; width:70%;
+}
+
+#main img {
+ 	position:absolute; width:100%; height:100%; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 9s; animation-iteration-count: infinite; 
+}
+#main img:nth-child(1) { 
+	animation-delay: 0s; 
+}
+#main img:nth-child(2) { 
+	animation-delay: 3s; 
+}
+#main img:nth-child(3) { 
+	animation-delay: 6s; 
+}
+
+
+#fir {
+	border-radius:35px;
+	margin-top:-50px;
+}
+#sec {
+	border-radius:35px;
+	margin-top:-50px;
+}
+#thr {
+	border-radius:35px;
+	margin-top:-50px;
+}
+
+#drinks {
+	border: solid;
+	height: 400px;
+	margin-top:150px;
+	width: 1000px;
+	border-radius:35px;
+	background-color: #E3BA9F;
+}
+
+
+#snaks {
+    border: solid;
+    height: 400px;
+    width: 1000px;
+    border-radius: 35px;
+    margin-left: 1000px;
+    margin-top: 50px; /* Добавил отступ сверху */
+    background-color: #E3BA9F;
+}
+#mmenu {
+    width: 2000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#divtext {
+    margin-left: 1150px;
+    width: 800px;
+    margin-bottom: -440px;
+    margin-top: 200px;
+    text-align: center; /* Центрирование текста по горизонтали */
+}
+
+#textt {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+    margin-top: 0; /* Изменение отступа сверху */
+}
+#divtext2 {
+    width: 800px;
+    margin-left: 100px;
+    margin-top: -330px;
+    text-align: center;
+}
+
+
+#textt2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+
+#drinks { 
+	background-size: cover;
+    width: x;
+    height: y;
+}
+
+#drnk {
+	width: 300px;
+	margin-left:350px;
+	margin-top:30px;
+}
+
+#snk {
+	width: 300px;
+	margin-left:350px;
+	margin-top:40px;
+}
+
+#numb {
+	font-size:50px;
+	padding-bottom:35px;
+	border-radius: 35px;
+	width:450px;
+	font-family: 'Comfortaa', sans-serif;
+	margin-left:1200px;
+	margin-top:-150px;
+}
+#numbph {
+	width:60px;
+	padding-bottom:75px;
+	margin-left:1100px;
+	margin-top:-150px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding-top:40px ;
+    margin-top:200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #222;
+}
+#footext {
+	font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+}

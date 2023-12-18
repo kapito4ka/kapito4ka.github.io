@@ -1,0 +1,302 @@
+body {
+    background-color: #A3826C;
+}
+#topic {
+    border:solid;
+    border-radius:35px;
+    background-color: #E3BA9F;
+}
+
+#photoone {
+    padding: 20px;
+    width: 130px;
+    align: middle;
+    align-content: center;
+    margin-top:-200px;
+    margin-right:60px;
+    padding-bottom:70px;
+    right: 10px;
+    float: right;
+    position:fixed;
+}
+.container {
+    position: relative;
+}
+
+
+.nametopic {
+    font-family: 'Comfortaa', sans-serif;
+    margin-left: 100px;
+    padding-top:10px;
+    max-resolution: bottom;
+    font-size: 90px;
+
+}
+
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+.scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+#numb {
+    font-size:50px;
+    padding-bottom:35px;
+    border-radius: 35px;
+    width:450px;
+    font-family: 'Comfortaa', sans-serif;
+    margin-left:1200px;
+    margin-top:-150px;
+}
+#numbph {
+    width:60px;
+    padding-bottom:75px;
+    margin-left:1100px;
+    margin-top:-150px;
+}
+.nametopic {
+    font-family: 'Comfortaa', sans-serif;
+    margin-left: 100px;
+    padding-top:10px;
+    max-resolution: bottom;
+    font-size: 90px;
+
+}
+.coffe {
+    margin-top:40px;
+    background-color: #E3BA9F;
+    height: 4700px;
+    width:1500px;
+    padding-left: 1000px;
+    margin:52px auto;
+    border-radius: 35px;
+}
+#pic1 {
+    border-radius: 30px;
+    border: solid;
+    width:500px;
+    margin-top:200px;
+/*    margin-left:-900px;*/
+    border-color: #A3826C;
+}
+
+/*.scale2 {
+    transition: 2s;
+}
+
+
+.scale2:hover {
+    transform:translate(px,0);
+}*/
+.image-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top:100px;
+  margin-left:500px;
+}
+
+.hover-trigger {
+  width: 530px;
+  height: auto;
+  position: relative;
+  right: 00px; /* Задайте значение для сдвига влево */
+  transition: opacity 0.3s ease;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 80%;
+  width:750px;
+  height: 300px;
+  left: 20%; /* Изначально текст за пределами видимости */
+  transform: translate(-10px, -50%);
+  background-color: #C9AFA1;
+  background-color: rgba(201, 175, 161,0.65);
+  padding: 10px;
+  border-radius: 25px;
+  opacity: 0 ;
+  transition: opacity 0.3s ease, left 0.3s ease; /* Добавлено свойство left для появления текста рядом */
+}
+
+.image-container:hover .hover-trigger {
+  opacity: 1;
+}
+
+.image-container:hover .text-overlay {
+  opacity: 1;
+  left: 0; /* Показываем текст при наведении */
+}
+
+#imag{
+    padding: auto;
+    width:800px;
+}
+
+#tp {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+    margin-top:5px;
+}
+
+#tpp{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+    margin-left:-700px;
+    margin-top:-700px;
+    background-color: #C9AFA1;
+    background-color: rgba(247, 222, 205,0.65);
+    border-radius:35px;
+}
+
+#cen1 {
+    width:300px;
+    margin-bottom:200px;
+    margin-right:600px;
+    padding-right:600px;
+}
+.image-container2:hover .hover-trigger {
+  opacity: 1;
+}
+
+.image-container2:hover .text-overlay {
+  opacity: 1;
+  left: 0; /* Показываем текст при наведении */
+}
+.image-container2 {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top:300px;
+  margin-left:-700px;
+}
+
+#imag2 {
+    padding: auto;
+    width:1000px;
+}
+#tpp2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+/*    margin-left:-700px;*/
+    margin-top:-700px;
+    background-color: #C9AFA1;
+    background-color: rgba(247, 222, 205,0.65);
+    border-radius:35px;
+}
+
+#cen2 {
+    width:700px;
+    margin-bottom:200px;
+    margin-left:500px;
+    padding-right:600px;
+}
+#imag3 {
+    width:1000px;
+}
+.image-container3 {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top:300px;
+  margin-left:400px;
+}
+.image-container3:hover .hover-trigger {
+  opacity: 1;
+}
+
+.image-container3:hover .text-overlay {
+  opacity: 1;
+  left: 0; /* Показываем текст при наведении */
+}
+#cen3 {
+    width:300px;
+    margin-bottom:200px;
+    margin-right:600px;
+    padding-right:600px;
+}
+#tpp3{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+    margin-left:-700px;
+    margin-top:-700px;
+    background-color: #C9AFA1;
+    background-color: rgba(247, 222, 205,0.65);
+    border-radius:35px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding-top:40px ;
+    margin-top:200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #222;
+}
+#footext {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+}
